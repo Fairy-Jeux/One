@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "one:block/raw_space_ore_block"
+  }
+}
