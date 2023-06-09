@@ -32,7 +32,9 @@ public class One {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModBlocks.register(eventBus);
+
         ModItems.register(eventBus);
+
         ModEnchantments.register(eventBus);
 
         eventBus.addListener(this::setup);
