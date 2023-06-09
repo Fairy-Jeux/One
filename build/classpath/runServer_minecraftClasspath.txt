@@ -1,4 +1,4 @@
-C:\Users\Armand\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.2.0_mapped_parchment_2022.08.07-1.18.2\forge-1.18.2-40.2.0_mapped_parchment_2022.08.07-1.18.2.jar
+C:\Users\Armand\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.2.0_mapped_parchment_2022.08.07-1.18.2\forge-1.18.2-40.2.0_mapped_parchment_2022.08.07-1.18.2-recomp.jar
 C:\Users\Armand\.gradle\caches\forge_gradle\minecraft_repo\versions\1.18.2\client-extra.jar
 C:\Users\Armand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.2.0\852eaf68007f6a5469e0887b7d08b2774b383cd6\javafmllanguage-1.18.2-40.2.0.jar
 C:\Users\Armand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.18.2-40.2.0\a75991cacedbe5f9b599b463dca55b00dcf1a67e\lowcodelanguage-1.18.2-40.2.0.jar
