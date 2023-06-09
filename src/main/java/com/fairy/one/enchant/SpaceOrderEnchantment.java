@@ -6,8 +6,4 @@ public class SpaceOrderEnchantment extends Enchantment {
     public SpaceOrderEnchantment(Rarity pRarity, EnchantmentCategory pCategory, EquipmentSlot... pApplicableSlots) {
         super(pRarity, pCategory, pApplicableSlots);
     }
-
-
-
-
 }

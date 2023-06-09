@@ -32,7 +32,9 @@ public class One {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModBlocks.register(eventBus);
+
         ModItems.register(eventBus);
+
         ModEnchantments.register(eventBus);
 
         eventBus.addListener(this::setup);
@@ -43,7 +45,7 @@ public class One {
 
     private void setup(final FMLCommonSetupEvent event) {
         // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
+        LOGGER.info("WELCOME TO ONe !");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 }
