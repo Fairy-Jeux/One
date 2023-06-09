@@ -15,6 +15,9 @@ public class ModItems {
     public static final RegistryObject<Item> SPACE = ITEMS.register("space",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
 
+    public static final RegistryObject<Item> SPACE_STICK = ITEMS.register("space_stick",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
+
     public static final RegistryObject<Item> SPACE_SWORD = ITEMS.register("space_sword",
             () -> new SwordItem(ModTiers.SPACE, 5, 4f,
                     new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
