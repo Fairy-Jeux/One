@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "one:space_stick"
+    },
+    "X": {
+      "item": "one:space"
+    }
+  },
+  "result": {
+    "item": "one:space_sword"
+  }
+}
