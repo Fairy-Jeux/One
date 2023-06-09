@@ -1,6 +1,7 @@
 package com.fairy.one;
 
 import com.fairy.one.block.ModBlocks;
+import com.fairy.one.enchant.ModEnchantments;
 import com.fairy.one.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
@@ -32,6 +33,7 @@ public class One {
 
         ModBlocks.register(eventBus);
         ModItems.register(eventBus);
+        ModEnchantments.register(eventBus);
 
         eventBus.addListener(this::setup);
 
