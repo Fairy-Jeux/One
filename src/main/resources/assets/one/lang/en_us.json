@@ -1,9 +1,10 @@
 {
   "item.one.space": "SPAce",
+  "item.one.space_sword": "SPAce Sword",
+  "item.one.space_stick": "SPAce Stick",
 
   "block.one.raw_space_ore_block": "Raw SPAce Ore",
 
   "itemGroup.onetab": "ONe",
-
-  "enchantment.one.space_order": "Space Order"
+  "enchantment.one.space_order": "SPAce ORDer"
 }
