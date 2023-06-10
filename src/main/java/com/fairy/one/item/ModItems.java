@@ -22,7 +22,8 @@ public class ModItems {
             () -> new SwordItem(ModTiers.SPACE, 5, 4f,
                     new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
 
-
+    public static final RegistryObject<Item> DRAGON_HEART = ITEMS.register("dragon_heart",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);
