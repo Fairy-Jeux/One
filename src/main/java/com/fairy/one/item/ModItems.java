@@ -17,6 +17,9 @@ public class ModItems {
     public static final RegistryObject<Item> SPACE = ITEMS.register("space",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
 
+    public static final RegistryObject<Item> SUPER_SPACE = ITEMS.register("super_space",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
+
     public static final RegistryObject<Item> SPACE_STICK = ITEMS.register("space_stick",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
 
@@ -61,6 +64,19 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.SPACE, EquipmentSlot.LEGS,
                     new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
     public static final RegistryObject<Item> SPACE_BOOTS = ITEMS.register("space_boots",
+            () -> new ArmorItem(ModArmorMaterials.SPACE, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
+
+    public static final RegistryObject<Item> SUPER_SPACE_HELMET = ITEMS.register("super_space_helmet",
+            () -> new ArmorItem(ModArmorMaterials.SPACE, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
+    public static final RegistryObject<Item> SUPER_SPACE_CHESTPLATE = ITEMS.register("super_space_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.SPACE, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
+    public static final RegistryObject<Item> SUPER_SPACE_LEGGING = ITEMS.register("super_space_leggings",
+            () -> new ArmorItem(ModArmorMaterials.SPACE, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
+    public static final RegistryObject<Item> SUPER_SPACE_BOOTS = ITEMS.register("super_space_boots",
             () -> new ArmorItem(ModArmorMaterials.SPACE, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
     public static final RegistryObject<Item> DRAGON_HEART = ITEMS.register("dragon_heart",
