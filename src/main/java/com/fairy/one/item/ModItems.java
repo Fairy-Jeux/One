@@ -1,10 +1,11 @@
 package com.fairy.one.item;
 
 import com.fairy.one.One;
+import com.fairy.one.item.custom.DamageSuperSwordItem;
+import com.fairy.one.item.custom.DamageSwordItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -21,7 +22,11 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
 
     public static final RegistryObject<Item> SPACE_SWORD = ITEMS.register("space_sword",
-            () -> new SwordItem(ModTiers.SPACE, 5, 4f,
+            () -> new DamageSwordItem(ModTiers.SPACE, 5, 4f,
+                    new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
+
+    public static final RegistryObject<Item> SUPER_SPACE_SWORD = ITEMS.register("super_space_sword",
+            () -> new DamageSuperSwordItem(ModTiers.SPACE, 5, 4f,
                     new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
 
     public static final RegistryObject<Item> SPACE_HELMET = ITEMS.register("space_helmet",
@@ -36,6 +41,8 @@ public class ModItems {
     public static final RegistryObject<Item> SPACE_BOOTS = ITEMS.register("space_boots",
             () -> new ArmorItem(ModArmorMaterials.SPACE, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
+    public static final RegistryObject<Item> DRAGON_HEART = ITEMS.register("dragon_heart",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);
