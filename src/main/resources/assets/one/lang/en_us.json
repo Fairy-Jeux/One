@@ -2,6 +2,10 @@
   "item.one.space": "SPAce",
   "item.one.space_sword": "SPAce Sword",
   "item.one.space_stick": "SPAce Stick",
+  "item.one.space_helmet": "SPAce Helmet",
+  "item.one.space_chestplate": "SPAce Chestplate",
+  "item.one.space_leggings": "SPAce Leggings",
+  "item.one.space_boots": "SPAce Boots",
 
   "block.one.raw_space_ore_block": "Raw SPAce Ore",
 
