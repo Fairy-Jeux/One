@@ -53,7 +53,6 @@ public class ModItems {
     public static final RegistryObject<Item> SUPER_SPACE_HOE = ITEMS.register("super_space_hoe",
             () -> new HoeItem(ModTiers.SPACE, 0, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));
-
     public static final RegistryObject<Item> SPACE_HELMET = ITEMS.register("space_helmet",
             () -> new ArmorItem(ModArmorMaterials.SPACE, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.ONE_TAB)));

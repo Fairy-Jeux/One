@@ -1,0 +1,11 @@
+{
+  "type": "one:order_space",
+  "ingredients": [
+    {
+      "item": "one:space"
+    }
+  ],
+  "output": {
+    "item": "one:space_pickaxe"
+  }
+}

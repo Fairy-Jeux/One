@@ -1,6 +1,7 @@
 package com.fairy.one.block;
 
 import com.fairy.one.One;
+import com.fairy.one.block.custom.OrderOfTheSpaceMachineBlock;
 import com.fairy.one.item.ModCreativeModeTab;
 import com.fairy.one.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -22,6 +23,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> RAW_SPACE_ORE_BLOCK = registerBlock("raw_space_ore_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.ICE).strength(8f).requiresCorrectToolForDrops()), ModCreativeModeTab.ONE_TAB);
+
+    public static final RegistryObject<Block> ORDER_OF_THE_SPACE_MACHINE = registerBlock("order_of_the_space_machine",
+            () -> new OrderOfTheSpaceMachineBlock(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(8f).requiresCorrectToolForDrops()), ModCreativeModeTab.ONE_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
